@@ -1,6 +1,5 @@
 #include <stdio.h>
 //Code for printing numbers from 1 to 100 for finding which ones fit the criterias for the loop
-
 int main () {
 
    int Number;
@@ -8,7 +7,6 @@ int main () {
    scanf("%d", &Number);
 
    for (int Number = 1; Number <= 100; Number++) {
-
    if (Number % 5 == 0 && Number % 3 == 0) { 
       printf("FizzBuzz\n"); // Prints FizzBuzz if the number is divisible by 3.
    } else if (Number % 5 == 0) { 
